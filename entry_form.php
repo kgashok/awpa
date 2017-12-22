@@ -117,9 +117,46 @@
 				  	</div>
 				  </form>
 				</div>
-
-
 			</div>
+			<div class="container-fluid">
+	<?php
+		include('database/dbConfig.php');
+		$query = $db->prepare("SELECT * FROM student");
+		$run = $query->execute();
+
+		$rs = $query->fetchAll(PDO::FETCH_OBJ);
+
+		$chat = '<table class="table">
+					<tr>
+						<th>S.No.</th>
+						<th>Reg no.</th>
+						<th>Name</th>
+						<th>Total Period</th>
+						<th>Att Period</th>
+						<th>mark</th>
+						<th>status</th>
+					</tr>';
+
+		$i = 1;
+		foreach( $rs as $students )
+		{
+			$chat .= '<tr>
+				<td>'.$i.'</td>
+				<td>'.$students->RegNo.'</td>
+				<td>'.$students->Name.'</td>
+				<td><input type="text" style="width : 50%;" name="wh'.$students->RegNo.'"></td>
+				<td><input type="text" style="width : 50%;" name="pr'.$students->RegNo.'"></td>
+				<td><input type="text" style="width : 50%;" name="ma'.$students->RegNo.'"></td>
+				<td></td>
+			</tr>';
+			$i++;
+		}
+
+	$chat .= '</table>';
+
+		echo $chat;
+		?>
+	</div>
 		</div>
 	</div>
 
