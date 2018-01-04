@@ -1,4 +1,4 @@
-﻿Web Portal Entry Automation
+Web Portal Entry Automation
 ===================
 
 
@@ -29,14 +29,14 @@ Work Flow :
 1. Wait until the EMS incharge login into Web Portal
 2. Read all the assests files in the Assest Folder and Generate as DataTables.
 3. Read the files in Report folder
-       a) Read the File name of the Report
-       b) Read the File name of the Report
-       c) Read the file and store as DataTable
-       d) Read the Subject code in the file and map with Subject Name
-       e) Select the Relevant menus in the Web Portal
-       f) Enter the assessment details (i.e. Total Working hours, Present hours, Marks scored) for each students.
-4.  Loop the process 3) d. to 3) f. for every subjects in the period.
+    1. Read the File name of the Report       
+    2. Read the File name of the Report
+    3. Read the file and store as DataTable
+    4. Read the Subject code in the file and map with Subject Name
+    5. Select the Relevant menus in the Web Portal
+    6. Enter the assessment details (i.e. Total Working hours, Present hours, Marks scored) for each students.
+4.  Loop the process 3) iv. to 3) vi. for every subjects in the period.
 5. Send Status mail to the Respectively Class Advisor and the HODs
-6. Loop the Process 3) a. to 3) g. for Every Files in the Report Folder.
+6. Loop the Process 3) i. to 5) for Every Files in the Report Folder.
      
 ----
