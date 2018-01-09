@@ -57,9 +57,9 @@
 				      <label for="reg">Regulation:</label>
 				  <select class="form-control" id="reg">
 				    <option>Select</option>
-				    <option>AUC</option>
-				    <option>AUCBE</option>
-				    <option>AUT</option>
+				    <option>2008</option>
+				    <option>2013</option>
+				    <option>2017</option>
 				  </select>
 				    </div>
 				    <div class="form-group">
@@ -92,9 +92,12 @@
 					      <label for="Branch">Branch:</label>
 						  <select class="form-control" id="branch" style="width: 80%;">
 						    <option>Select</option>
-						    <option>104- Computer Science and engineering</option>
-						    <option>103- Electric and Communication engineering</option>
-						    <option>101- Information Technology</option>
+						    <option>103 - B.E. Civil Engineering</option>
+						    <option>104 - B.E. Computer Science and Engineering</option>
+						    <option>105 - B.E. Electrical and Electronics Engineering</option>
+						    <option>106 - B.E. Electronics and Communication Engineering</option>
+						    <option>114 - B.E. Mechanical Engineering</option>
+						    <option>205 - B.Tech. Information Technology</option>
 						  </select>
 						    </div>
 						    <br>
@@ -102,11 +105,12 @@
 						      <label for="sub" >Subject:</label>
 						  <select class="form-control" id="subject" style="width: 80%;">
 						    <option>Select</option>
-						    <option>CS604- Data Analtyics</option>
-						    <option>CS605- Serivce oriented Architecture</option>
-						    <option>CS607- Database Management System</option>
-						    <option>CS601- Programming and Data Structure</option>
-						    <option>CS603- Grid and Cloud Computing</option>
+						    <option>IT6006 - Data Analtyics</option>
+						    <option>IT6801 - Serivce oriented Architecture</option>
+						    <option>CS6701 - Cryptography and Network Security</option>
+						    <option>CS6702 - Graph Theory and Application</option>
+						    <option>CS6703 - Grid and Cloud Computing</option>
+						    <option>CS6704 - Resource Management Techniques</option>
 						  </select>
 					    </div>
 				    </div>
@@ -156,7 +160,13 @@
 
 		echo $chat;
 		?>
+		<div>
+		<br>
+		<button type="submit" id="markSubmit" class="btn btn-default" style="position: absolute; right: 50%; background-color: black; color: white; border-radius: 10px;">Save</button>
+		<br><br>
 	</div>
+	</div>
+	
 		</div>
 	</div>
 
