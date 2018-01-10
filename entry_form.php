@@ -31,6 +31,7 @@
 				  			<td>
 				  				<select class="form-group" style="width: 100%;" id="sel1">
 							    <option>select</option>
+							    <option>1</option>
 							    <option>2</option>
 							    <option>3</option>
 							    <option>4</option>
