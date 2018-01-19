@@ -24,6 +24,12 @@ Requirements
 > - Mailing details
 
 ---------
+Flowchart Diagram : 
+-------------
+
+![Architecture Diagram](Architecture.png)
+
+---------
 Work Flow : 
 -------------               
 1. Wait until the EMS incharge login into Web Portal
