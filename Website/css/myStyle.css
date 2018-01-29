@@ -1,0 +1,31 @@
+
+.tab {
+    overflow: auto;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    color: #e8e83e;
+    font-size: 17px;
+    background-color: #047272;
+    border-radius: 10px;
+    border-bottom-style: none;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: #B2E2E2;
+}
+
+input[type="text"] {
+    text-align: center;
+}
