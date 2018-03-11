@@ -2,7 +2,7 @@ Web Portal Entry Automation
 ===================
 
 
-It is mandatory for Anna University affiliated colleges to enter data into the University WEb Portal. This Robotic Process Automation Project will help simplifiy the process updating the portal. It primarily eliminates the need for manual entriesof the students assessment details, and thereby reduces human time spent on related activities. 
+It is mandatory for Anna University affiliated colleges to enter data into the University Web Portal. This Robotic Process Automation Project will help simplifiy the process updating the portal. It primarily eliminates the need for manual entriesof the students assessment details, and thereby reduces human time spent on related activities. 
 
 ----------
 
